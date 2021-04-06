@@ -13,6 +13,9 @@
     <properties>
         <junit.version>5.7.0</junit.version>
         <netty.version>4.1.46.Final</netty.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencyManagement>
@@ -44,8 +47,9 @@
     </dependencies>
 
     <modules>
-        <module>chapter02</module>
         <module>chapter01</module>
+        <module>chapter02</module>
+        <module>chapter04</module>
     </modules>
 
     <build>

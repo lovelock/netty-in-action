@@ -28,7 +28,7 @@ public class EchoServer {
     }
 
     public void start() throws InterruptedException {
-        final nia.chapter02.echoserver.EchoServerHandler serverHandler = new nia.chapter02.echoserver.EchoServerHandler();
+        final EchoServerHandler serverHandler = new EchoServerHandler();
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             ServerBootstrap b = new ServerBootstrap();
