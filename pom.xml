@@ -45,6 +45,7 @@
 
     <modules>
         <module>chapter02</module>
+        <module>chapter01</module>
     </modules>
 
     <build>
